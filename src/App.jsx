@@ -12,8 +12,7 @@ import { TodoListContext } from "./contexts/TodoListContext";
 function App() {
   const { id, username } = useContext(UserAuth);
 
-  axios.defaults.baseURL =
-    "https://server-2-1sgsat45j-abdullahtilalcodup.vercel.app";
+  axios.defaults.baseURL = "https://server1-2ejl.vercel.app/";
   axios.defaults.withCredentials = true;
 
   return (
